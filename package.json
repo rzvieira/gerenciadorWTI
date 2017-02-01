@@ -1,0 +1,40 @@
+{
+  "name": "webti",
+  "version": "1.0.0",
+  "description": "Gerenciador WebTi",
+  "main": "index.js",
+  "scripts": {
+    "start": "live-server --port=12345",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rzvieira/gerenciadorWTI.git"
+  },
+  "author": "rzvieira",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rzvieira/gerenciadorWTI/issues"
+  },
+  "homepage": "https://github.com/rzvieira/gerenciadorWTI#readme",
+  "dependencies": {
+    "@angular/common": "2.0.0",
+    "@angular/compiler": "2.0.0",
+    "@angular/core": "2.0.0",
+    "@angular/forms": "2.0.0",
+    "@angular/http": "2.0.0",
+    "@angular/platform-browser": "2.0.0",
+    "@angular/platform-browser-dynamic": "2.0.0",
+    "@angular/router": "3.0.0",
+    "@angular/upgrade": "2.0.0",
+    "angular2-in-memory-web-api": "0.0.20",
+    "bootstrap": "^3.3.6",
+    "core-js": "^2.4.1",
+    "g": "^2.0.1",
+    "reflect-metadata": "^0.1.3",
+    "rxjs": "5.0.0-beta.12",
+    "systemjs": "0.19.27",
+    "typescript": "^2.1.5",
+    "zone.js": "^0.6.23"
+  }
+}
