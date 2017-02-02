@@ -5,9 +5,7 @@
     "command": "tsc",
     "isShellCommand": true,
     "args": [
-        "teste.ts",
-        "user.ts",
-        "pessoa.ts"
+        "app/login/login.ts"
     ],
     "showOutput": "always",
     "problemMatcher": "$tsc"
