@@ -1,34 +1,41 @@
+// {
+//     "compilerOptions": {
+//         "target": "es6",
+//         "module": "commonjs",
+//         "moduleResolution": "node",
+//         "sourceMap": true,
+//         "emitDecoratorMetadata": true,
+//         "experimentalDecorators": false,
+//         "removeComments": false,
+//         "noImplicitAny": true,
+//         "suppressImplicitAnyIndexErrors": true,
+//         "allowJs": true,
+//          "jsx": "react"
+//     },
+//     "compileOnSave": true,
+//     "exclude": [
+//         "node_modules"
+//     ]
+// }
 {
     "compilerOptions": {
-        "target": "es6",
+        "target": "es5",
         "module": "commonjs",
         "moduleResolution": "node",
         "sourceMap": true,
         "emitDecoratorMetadata": true,
-        "experimentalDecorators": false,
+        "experimentalDecorators": true,
         "removeComments": false,
         "noImplicitAny": true,
         "suppressImplicitAnyIndexErrors": true,
         "allowJs": true,
-         "jsx": "react"
+         "jsx": "react",
+        "typeRoots": [
+            "./node_modules/@types/"
+        ]
     },
     "compileOnSave": true,
     "exclude": [
-        "node_modules"
+        "node_modules/*"
     ]
 }
-
-// {
-//   "compilerOptions": {
-//     "target": "es5",
-//     "sourceMap": true,
-//     "allowJs": true,
-//     "jsx": "react",
-//     "moduleResolution": "node"
-//     //"experimentalDecorators": true
-//   },
-//   "exclude": [
-//     "node_modules",
-//     "Scripts/Build"
-//   ]
-// }

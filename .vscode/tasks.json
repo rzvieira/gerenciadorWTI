@@ -5,7 +5,7 @@
     "command": "tsc",
     "isShellCommand": true,
     "args": [
-        "app/login/login.ts"
+        "Hello Word"
     ],
     "showOutput": "always",
     "problemMatcher": "$tsc"
