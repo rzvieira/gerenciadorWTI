@@ -20,7 +20,7 @@ var AuthenticationService = (function () {
             .map(function (response) {
             // login successful if there's a jwt token in response
             var user = response.json();
-            if (user = response.json) {
+            if (user && response.json) {
                 // store user details and jwt token in local storage to keep user logged in between page refreshes
                 localStorage.setItem('currentUser', JSON.stringify(user));
             }

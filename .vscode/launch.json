@@ -8,18 +8,16 @@
             "type": "node",
             "request": "launch",
             "name": "Launch Program",
-            "program": "${workspaceRoot}\\*.js",
+            "program": "${workspaceRoot}\\app\\main.js",
             "cwd": "${workspaceRoot}",
-            "outFiles": [],
-            "sourceMaps": true
+            "outFiles": []
         },
         {
             "type": "node",
             "request": "attach",
             "name": "Attach to Process",
             "port": 5858,
-            "outFiles": [],
-            "sourceMaps": true
+            "outFiles": []
         }
     ]
 }
